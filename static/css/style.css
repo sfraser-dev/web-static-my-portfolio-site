@@ -23,11 +23,6 @@ body {
 
 /***** BASE PAGE (navbar and title). *****/
 /* Need to use !important to override w3.css colors */
-.my-base-nav-link-active {
-    color: #cccccc !important;
-    text-decoration: none;
-}
-
 .my-base-title-header {
     text-decoration: underline;
     text-underline-offset: 5px;
