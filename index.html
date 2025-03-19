@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Stewart Fraser</title>
-        <link rel="icon" href="./static/images/favicons/program.png" />
-        <link
-            rel="stylesheet"
-            href="https://www.w3schools.com/w3css/4/w3.css"
-        />
-        <link rel="stylesheet" href="./static/css/w3-adapt.css" />
-        <link rel="stylesheet" href="./static/css/style.css" />
+    <head id="head-index">
     </head>
     <body>
         <header class="w3-container">
@@ -40,24 +30,22 @@
             </div> -->
 
             <div class="w3-top">
-            <nav class="w3-bar w3-border w3-light-grey">
-                <a href="#section_home" class="w3-bar-item w3-button">Top</a>
-                <a
-                    href="#section_projects"
-                    class="w3-bar-item w3-button"
-                    >Projects</a
-                >
-                <a
-                    href="#section_certificates"
-                    class="w3-bar-item w3-button"
-                    >Certs</a
-                >
-                <a
-                    href="#section_contact"
-                    class="w3-bar-item w3-button"
-                    >Contact</a
-                >
-            </nav>
+                <nav class="w3-bar w3-border w3-light-grey">
+                    <a href="#section_home" class="w3-bar-item w3-button"
+                        >Top</a
+                    >
+                    <a href="#section_projects" class="w3-bar-item w3-button"
+                        >Projects</a
+                    >
+                    <a
+                        href="#section_certificates"
+                        class="w3-bar-item w3-button"
+                        >Certs</a
+                    >
+                    <a href="#section_contact" class="w3-bar-item w3-button"
+                        >Contact</a
+                    >
+                </nav>
             </div>
 
             <div class="w3-container w3-section">
@@ -231,9 +219,45 @@
                     </div>
                 </div>
             </section>
-            <section id="section_projects">
-
+            <section id="section_projects" class="w3-row-padding">
+                <!-- Responsive w3.css grid. -->
+                <div class="w3-col l3 my-ms6 s12 w3-center">
+                    <!-- Use the class to remove the default link text decoration. -->
+                    <a class="my-projects-card-link" href="./project-microblog.html">
+                        <!-- The card (which is fully within an anchor tag - entirely clickable). -->
+                        <article
+                            class="w3-card-4 w3-light-gray w3-center my-projects-card my-projects-card-limit-width"
+                        >
+                            <!-- The name of this project. -->
+                            <h2 class="my-projects-card-title">Microblog</h2>
+                            <img
+                                class="my-projects-card-image"
+                                src="./static/images/microblog-wee.png"
+                                alt="microblog hero image"
+                            />
+                            <header>
+                                <!-- A list of all the categories (technologies used) for the project. -->
+                                <div
+                                    class="w3-tag w3-round w3-white my-shared-technologies-tag"
+                                >
+                                    Python
+                                </div>
+                                <div
+                                    class="w3-tag w3-round w3-white my-shared-technologies-tag"
+                                >
+                                    Flask
+                                </div>
+                                <div
+                                    class="w3-tag w3-round w3-white my-shared-technologies-tag"
+                                >
+                                    MongoDB
+                                </div>
+                            </header>
+                        </article>
+                    </a>
+                </div>
             </section>
+
             <section id="section_certificates">
                 <!-- The body for the certificates page. -->
                 <div class="w3-container">
@@ -438,5 +462,12 @@
             src="https://kit.fontawesome.com/316af999ed.js"
             crossorigin="anonymous"
         ></script>
+        <script>
+            fetch('head-common.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('head-index').innerHTML = data;
+                });
+        </script>
     </body>
 </html>
