@@ -1,34 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head id="head-index">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Stewart Fraser</title>
+        <link rel="icon" href="./static/images/favicons/program.png" />
+        <link
+            rel="stylesheet"
+            href="https://www.w3schools.com/w3css/5/w3.css"
+        />
+        <link rel="stylesheet" href="./static/css/style.css" />
     </head>
     <body>
         <header class="w3-container">
-            <!-- <div class="w3-top">
-                <nav class="w3-bar w3-black w3-card-4 w3-round">
-                    <a
-                        href="#section_home"
-                        class="w3-text-white w3-bar-item w3-padding-16 my-w3-mobile"
-                        >Home</a
-                    >
-                    <a
-                        href="#section_projects"
-                        class="w3-text-gray w3-bar-item w3-padding-16 my-w3-mobile"
-                        >Projects</a
-                    >
-                    <a
-                        href="#section_certificates"
-                        class="w3-text-gray w3-bar-item w3-padding-16 my-w3-mobile"
-                        >Certs</a
-                    >
-                    <a
-                        href="#section_contact"
-                        class="w3-text-gray w3-bar-item w3-padding-16 my-w3-mobile"
-                        >Contact</a
-                    >
-                </nav>
-            </div> -->
-
             <div class="w3-top">
                 <nav class="w3-bar w3-border w3-light-grey">
                     <a href="#section_home" class="w3-bar-item w3-button"
@@ -57,7 +41,7 @@
             class="w3-container my-home-page-container my-home-page-limit-width"
         >
             <section id="section_home">
-                <div class="w3-margin-left">
+                <div class="w3-container w3-margin-left">
                     <img
                         src="../static/images/portrait.png"
                         alt="hero image portrait"
@@ -219,255 +203,337 @@
                     </div>
                 </div>
             </section>
-            <section id="section_projects" class="w3-row-padding">
-                <!-- Responsive w3.css grid. -->
-                <div class="w3-col l3 my-ms6 s12 w3-center">
-                    <!-- Use the class to remove the default link text decoration. -->
-                    <a class="my-projects-card-link" href="./project-microblog.html">
-                        <!-- The card (which is fully within an anchor tag - entirely clickable). -->
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-projects-card my-projects-card-limit-width"
-                        >
-                            <!-- The name of this project. -->
-                            <h2 class="my-projects-card-title">Microblog</h2>
-                            <img
-                                class="my-projects-card-image"
-                                src="./static/images/microblog-wee.png"
-                                alt="microblog hero image"
-                            />
-                            <header>
-                                <!-- A list of all the categories (technologies used) for the project. -->
-                                <div
-                                    class="w3-tag w3-round w3-white my-shared-technologies-tag"
+
+            <section id="section_projects">
+                <div class="w3-container w3-margin-left">
+                    <div class="w3-text-dark-grey">
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="w3-row-padding">
+                        <div class="w3-third w3-center">
+                            <!-- Use the class to remove the default link text decoration. -->
+                            <a
+                                class="my-projects-card-link"
+                                href="./project-microblog.html"
+                            >
+                                <!-- The card (which is fully within an anchor tag - entirely clickable). -->
+                                <article
+                                    class="w3-card-4 w3-light-gray w3-center my-projects-card my-projects-card-limit-width"
                                 >
-                                    Python
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-shared-technologies-tag"
+                                    <!-- The name of this project. -->
+                                    <h2 class="my-projects-card-title">
+                                        Microblog
+                                    </h2>
+                                    <img
+                                        class="my-projects-card-image"
+                                        src="./static/images/microblog-wee.png"
+                                        alt="microblog hero image"
+                                    />
+                                    <header>
+                                        <!-- A list of all the categories (technologies used) for the project. -->
+                                        <div
+                                            class="w3-tag w3-round w3-white my-shared-technologies-tag"
+                                        >
+                                            Python
+                                        </div>
+                                        <div
+                                            class="w3-tag w3-round w3-white my-shared-technologies-tag"
+                                        >
+                                            Flask
+                                        </div>
+                                        <div
+                                            class="w3-tag w3-round w3-white my-shared-technologies-tag"
+                                        >
+                                            MongoDB
+                                        </div>
+                                    </header>
+                                </article>
+                            </a>
+                        </div>
+
+                        <div class="w3-third w3-center">
+                            <!-- Use the class to remove the default link text decoration. -->
+                            <a
+                                class="my-projects-card-link"
+                                href="./project-microblog.html"
+                            >
+                                <!-- The card (which is fully within an anchor tag - entirely clickable). -->
+                                <article
+                                    class="w3-card-4 w3-light-gray w3-center my-projects-card my-projects-card-limit-width"
                                 >
-                                    Flask
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-shared-technologies-tag"
-                                >
-                                    MongoDB
-                                </div>
-                            </header>
-                        </article>
-                    </a>
+                                    <!-- The name of this project. -->
+                                    <h2 class="my-projects-card-title">
+                                        Microblog
+                                    </h2>
+                                    <img
+                                        class="my-projects-card-image"
+                                        src="./static/images/microblog-wee.png"
+                                        alt="microblog hero image"
+                                    />
+                                    <header>
+                                        <!-- A list of all the categories (technologies used) for the project. -->
+                                        <div
+                                            class="w3-tag w3-round w3-white my-shared-technologies-tag"
+                                        >
+                                            Python
+                                        </div>
+                                        <div
+                                            class="w3-tag w3-round w3-white my-shared-technologies-tag"
+                                        >
+                                            Flask
+                                        </div>
+                                        <div
+                                            class="w3-tag w3-round w3-white my-shared-technologies-tag"
+                                        >
+                                            MongoDB
+                                        </div>
+                                    </header>
+                                </article>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <section id="section_certificates">
                 <!-- The body for the certificates page. -->
-                <div class="w3-container">
-                    <div class="w3-container">
-                        <div class="w3-text-dark-grey">
-                            <h1>Bootcamp and Course Certificates</h1>
-                        </div>
+                <!-- Top certificate has margin top 30, all the others have margin top 40 -->
+                <div class="w3-container w3-margin-left my-margin-top-30">
+                    <div class="w3-text-dark-grey">
+                        <h1>Certificates</h1>
                     </div>
-                    <!-- Top certificate has margin top 30, all the others have margin top 40 -->
-                    <div class="w3-container my-margin-top-30">
-                        <h3>Python: Online Data Analysis Course</h3>
-                        <p>"Performing data analysis using Python."</p>
+                    <h3 class="my-margin-top-30">
+                        Python: Online Data Analysis Course
+                    </h3>
+                    <p>"Performing data analysis using Python."</p>
+                    <a
+                        href="./static/docs/cert-fcc-python-data-analysis-sf.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="./static/docs/cert-fcc-python-data-analysis-sf.png"
+                            alt="Data Analysis FCC certificate"
+                            class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
+                        />
+                    </a>
+                    <p>
                         <a
-                            href="./static/docs/cert-fcc-python-data-analysis-sf.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="https://www.freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/data-analysis-with-python-v7"
+                            >View Data Analysis certificate on freeCodeCamp</a
                         >
-                            <img
-                                src="./static/docs/cert-fcc-python-data-analysis-sf.png"
-                                alt="Data Analysis FCC certificate"
-                                class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
-                            />
-                        </a>
-                        <p>
-                            <a
-                                href="https://www.freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/data-analysis-with-python-v7"
-                                >View Data Analysis certificate on
-                                freeCodeCamp</a
-                            >
-                        </p>
-                    </div>
-                    <div class="w3-container my-margin-top-40">
-                        <h3>JavaScript: Online DSA Course</h3>
-                        <p>
-                            "Implementing algorithms and data structures using
-                            JavaScript."
-                        </p>
+                    </p>
+                </div>
+                <div class="w3-container w3-margin-left my-margin-top-40">
+                    <h3>JavaScript: Online DSA Course</h3>
+                    <p>
+                        "Implementing algorithms and data structures using
+                        JavaScript."
+                    </p>
+                    <a
+                        href="./static/docs/cert-fcc-javascript-dsa-sf.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="./static/docs/cert-fcc-javascript-dsa-sf.png"
+                            alt="JavaScript FCC certificate"
+                            class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
+                        />
+                    </a>
+                    <p>
                         <a
-                            href="./static/docs/cert-fcc-javascript-dsa-sf.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="https://www.freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/javascript-algorithms-and-data-structures"
+                            >View JavaScript DSA certificate on freeCodeCamp</a
                         >
-                            <img
-                                src="./static/docs/cert-fcc-javascript-dsa-sf.png"
-                                alt="JavaScript FCC certificate"
-                                class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
-                            />
-                        </a>
-                        <p>
-                            <a
-                                href="https://www.freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/javascript-algorithms-and-data-structures"
-                                >View JavaScript DSA certificate on
-                                freeCodeCamp</a
-                            >
-                        </p>
-                    </div>
-                    <div class="w3-container my-margin-top-40">
-                        <h3>C#: Online Microsoft Course</h3>
-                        <p>
-                            "Comprehensive introduction to the C# programming
-                            language with Microsoft."
-                        </p>
+                    </p>
+                </div>
+                <div class="w3-container w3-margin-left my-margin-top-40">
+                    <h3>C#: Online Microsoft Course</h3>
+                    <p>
+                        "Comprehensive introduction to the C# programming
+                        language with Microsoft."
+                    </p>
+                    <a
+                        href="./static/docs/cert-fcc-ms-csharp-sf.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="./static/docs/cert-fcc-ms-csharp-sf.png"
+                            alt="C# Microscoft and FCC certificate"
+                            class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
+                        />
+                    </a>
+                    <p>
                         <a
-                            href="./static/docs/cert-fcc-ms-csharp-sf.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="https://freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/foundational-c-sharp-with-microsoft"
+                            >View C# certificate and exam results on
+                            freeCodeCamp</a
                         >
-                            <img
-                                src="./static/docs/cert-fcc-ms-csharp-sf.png"
-                                alt="C# Microscoft and FCC certificate"
-                                class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
-                            />
-                        </a>
-                        <p>
-                            <a
-                                href="https://freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/foundational-c-sharp-with-microsoft"
-                                >View C# certificate and exam results on
-                                freeCodeCamp</a
-                            >
-                        </p>
-                    </div>
-                    <div class="w3-container my-margin-top-40">
-                        <h3>Go (Golang): Online Course</h3>
-                        <p>"Mastering the Go programming language."</p>
+                    </p>
+                </div>
+                <div class="w3-container w3-margin-left my-margin-top-40">
+                    <h3>Go (Golang): Online Course</h3>
+                    <p>"Mastering the Go programming language."</p>
+                    <a
+                        href="./static/docs/cert-go-grider.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="./static/docs/cert-go-grider.png"
+                            alt="Go Udemy certificate"
+                            class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
+                        />
+                    </a>
+                    <p>
                         <a
-                            href="./static/docs/cert-go-grider.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="https://ude.my/UC-39842b87-9f21-4303-ad79-44a69760dd18"
+                            >View Go certificate on Udemy</a
                         >
-                            <img
-                                src="./static/docs/cert-go-grider.png"
-                                alt="Go Udemy certificate"
-                                class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
-                            />
-                        </a>
-                        <p>
-                            <a
-                                href="https://ude.my/UC-39842b87-9f21-4303-ad79-44a69760dd18"
-                                >View Go certificate on Udemy</a
-                            >
-                        </p>
-                    </div>
-                    <div class="w3-container my-margin-top-40">
-                        <h3>
-                            JavaScript: Online Backend Development and APIs
-                            Course
-                        </h3>
-                        <p>
-                            "Creating microservices using JavaScript, Node,
-                            Express and MongoDB."
-                        </p>
+                    </p>
+                </div>
+                <div class="w3-container w3-margin-left my-margin-top-40">
+                    <h3>
+                        JavaScript: Online Backend Development and APIs Course
+                    </h3>
+                    <p>
+                        "Creating microservices using JavaScript, Node, Express
+                        and MongoDB."
+                    </p>
+                    <a
+                        href="./static/docs/cert-fcc-backend-api-sf.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="./static/docs/cert-fcc-backend-api-sf.png"
+                            alt="API FCC certificate"
+                            class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
+                        />
+                    </a>
+                    <p>
                         <a
-                            href="./static/docs/cert-fcc-backend-api-sf.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="https://freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/back-end-development-and-apis"
+                            >View JavaScript Backend Development and APIs
+                            certificate on freeCodeCamp</a
                         >
-                            <img
-                                src="./static/docs/cert-fcc-backend-api-sf.png"
-                                alt="API FCC certificate"
-                                class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
-                            />
-                        </a>
-                        <p>
-                            <a
-                                href="https://freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/back-end-development-and-apis"
-                                >View JavaScript Backend Development and APIs
-                                certificate on freeCodeCamp</a
-                            >
-                        </p>
-                    </div>
-                    <div class="w3-container my-margin-top-40">
-                        <h3>Just IT Software Development Bootcamp</h3>
-                        <p>
-                            "In-person three-month intensive bootcamp focusing
-                            on Python, JavaScript, SQL, CSS and HTML."
-                        </p>
+                    </p>
+                </div>
+                <div class="w3-container w3-margin-left my-margin-top-40">
+                    <h3>Just IT Software Development Bootcamp</h3>
+                    <p>
+                        "In-person three-month intensive bootcamp focusing on
+                        Python, JavaScript, SQL, CSS and HTML."
+                    </p>
+                    <a
+                        href="./static/docs/cert-JustIT-completion-certificate.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="./static/docs/cert-JustIT-completion-certificate.png"
+                            alt="JustIT certificate"
+                            class="my-certificates-image-justit w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
+                        />
+                    </a>
+                </div>
+                <div class="w3-container w3-margin-left my-margin-top-40">
+                    <h3>SQL: Online Course</h3>
+                    <p>
+                        "Become an expert at SQL using PostgreSQL and PgAdmin".
+                    </p>
+                    <a
+                        href="./static/docs/cert-sql-portilla.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="./static/docs/cert-sql-portilla.png"
+                            alt="SQL Udemey Certificate"
+                            class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
+                        />
+                    </a>
+                    <p>
                         <a
-                            href="./static/docs/cert-JustIT-completion-certificate.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="https://ude.my/UC-ec6421c1-4784-4ba5-902d-229c7d08c2b4"
+                            >View SQL certificate on Udemy</a
                         >
-                            <img
-                                src="./static/docs/cert-JustIT-completion-certificate.png"
-                                alt="JustIT certificate"
-                                class="my-certificates-image-justit w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
-                            />
-                        </a>
-                    </div>
-                    <div class="w3-container my-margin-top-40">
-                        <h3>SQL: Online Course</h3>
-                        <p>
-                            "Become an expert at SQL using PostgreSQL and
-                            PgAdmin".
-                        </p>
-                        <a
-                            href="./static/docs/cert-sql-portilla.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img
-                                src="./static/docs/cert-sql-portilla.png"
-                                alt="SQL Udemey Certificate"
-                                class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
-                            />
-                        </a>
-                        <p>
-                            <a
-                                href="https://ude.my/UC-ec6421c1-4784-4ba5-902d-229c7d08c2b4"
-                                >View SQL certificate on Udemy</a
-                            >
-                        </p>
-                    </div>
+                    </p>
+                </div>
 
-                    <div class="w3-container my-margin-top-40">
-                        <h3>Python: Online Course</h3>
-                        <p>
-                            "Begin with the basics of Python and progress to
-                            creating your own applications and games."
-                        </p>
+                <div class="w3-container w3-margin-left my-margin-top-40">
+                    <h3>Python: Online Course</h3>
+                    <p>
+                        "Begin with the basics of Python and progress to
+                        creating your own applications and games."
+                    </p>
+                    <a
+                        href="./static/docs/cert-python-portilla.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="./static/docs/cert-python-portilla.png"
+                            alt="Python Udemy Certificate"
+                            class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
+                        />
+                    </a>
+                    <p>
                         <a
-                            href="./static/docs/cert-python-portilla.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="https://ude.my/UC-ac1d437e-d4f3-43ec-8b1f-27386db098b9"
+                            >View Python certificate on Udemy</a
                         >
-                            <img
-                                src="./static/docs/cert-python-portilla.png"
-                                alt="Python Udemy Certificate"
-                                class="my-certificates-image w3-panel w3-theme-l5 w3-leftbar w3-topbar w3-bottombar w3-rightbar w3-border-black"
-                            />
-                        </a>
-                        <p>
-                            <a
-                                href="https://ude.my/UC-ac1d437e-d4f3-43ec-8b1f-27386db098b9"
-                                >View Python certificate on Udemy</a
-                            >
-                        </p>
-                    </div>
+                    </p>
                 </div>
             </section>
+
+            <section id="section_contact">
+                <div class="w3-container w3-margin-left w3-margin-bottom">
+                    <div class="w3-text-dark-grey">
+                        <h1>Contact</h1>
+                    </div>
+                </div>
+                <div class="w3-container w3-margin-left my-contact-container">
+                    <i class="fa-solid fa-phone"></i> Mobile:
+                    <span style="color: gray">+44-77-4067-8243</span>
+                </div>
+                <div class="w3-container w3-margin-left my-contact-container">
+                    <a href="mailto:contact@sfraser.io" class="my-contact-link"
+                        ><i class="fa-regular fa-envelope"></i> Email:
+                        <span style="color: gray">contact@sfraser.io</span></a
+                    >
+                </div>
+                <div class="w3-container w3-margin-left my-contact-container">
+                    <a
+                        href="https://www.linkedin.com/in/sfraser-dev"
+                        class="my-contact-link"
+                        ><i class="fa-brands fa-linkedin"></i> LinkedIn:
+                        <span style="color: gray">sfraser-dev</span></a
+                    >
+                </div>
+                <div class="w3-container w3-margin-left my-contact-container">
+                    <a
+                        href="https://github.com/sfraser-dev"
+                        class="my-contact-link"
+                        ><i class="fa-brands fa-github"></i> GitHub:
+                        <span style="color: gray">@sfraser-dev</span></a
+                    >
+                </div>
+                <div class="w3-container w3-margin-left my-contact-container">
+                    <a
+                        href="./static/docs/Stewart-Fraser-CV.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="my-contact-link"
+                        ><i class="fa-regular fa-file-lines"></i> CV:
+                        <span style="color: gray">view PDF</span></a
+                    >
+                </div>
+            </section>
+
+            <section></section>
         </main>
-        <script
-            src="https://kit.fontawesome.com/316af999ed.js"
-            crossorigin="anonymous"
-        ></script>
-        <script>
-            fetch('head-common.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('head-index').innerHTML = data;
-                });
-        </script>
     </body>
 </html>
