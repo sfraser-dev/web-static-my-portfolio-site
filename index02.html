@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Stewart Fraser</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="./static/images/favicons/program.png" />
+        <link
+            rel="stylesheet"
+            href="https://www.w3schools.com/w3css/5/w3.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto"
+        />
+        <style>
+            html,
+            body {
+                font-family: "Roboto", sans-serif;
+            }
+            .nav-link {
+                cursor: pointer;
+            }
+            .w3-bar .w3-button {
+                padding: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div class="w3-top w3-bar w3-black w3-card">
+            <a
+                class="w3-bar-item w3-button w3-hover-teal nav-link"
+                onclick="scrollToSection('home')"
+                >Home</a
+            >
+            <a
+                class="w3-bar-item w3-button w3-hover-teal nav-link"
+                onclick="scrollToSection('about')"
+                >About</a
+            >
+            <a
+                class="w3-bar-item w3-button w3-hover-teal nav-link"
+                onclick="scrollToSection('projects')"
+                >Projects</a
+            >
+            <a
+                class="w3-bar-item w3-button w3-hover-teal nav-link"
+                onclick="scrollToSection('certificates')"
+                >Certs</a
+            >
+            <a
+                class="w3-bar-item w3-button w3-hover-teal nav-link"
+                onclick="scrollToSection('contact')"
+                >Contact</a
+            >
+        </div>
+
+        <!-- Home Section -->
+        <header
+            class="w3-container w3-teal w3-center"
+            style="padding: 100px 16px"
+            id="home"
+        >
+            <h1 class="w3-xxxlarge">Stewart Fraser</h1>
+            <h4>Software Engineer</h4>
+        </header>
+
+        <!-- About Section -->
+        <section class="w3-container w3-padding-64" id="about">
+            <h2>About</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab,
+                impedit explicabo veniam, ullam doloribus repudiandae fuga vero
+                iusto nesciunt saepe minima earum. Ad facilis unde, magni
+                provident saepe consequatur ratione. Fugit, necessitatibus
+                sequi? Doloribus, eligendi aliquid et aperiam non, dolorem
+                suscipit neque sapiente veritatis quos incidunt ad omnis
+                accusamus excepturi autem natus illo numquam dolores cupiditate,
+                quia consequuntur! Voluptatibus, aperiam. Necessitatibus,
+                corporis fuga, aliquam unde exercitationem ad perspiciatis illo
+                explicabo maxime quidem nisi itaque rerum, aspernatur nobis iure
+                dicta animi quis quia voluptatem laudantium repellendus. In
+                perspiciatis natus aspernatur nobis.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="w3-container w3-light-gray w3-padding-64" id="projects">
+            <h2>Projects</h2>
+            <div class="w3-row-padding">
+                <div class="w3-third w3-margin-bottom">
+                    <div class="w3-card w3-padding">
+                        <h3>Project One</h3>
+                        <p>Description of project1.</p>
+                    </div>
+                </div>
+                <div class="w3-third w3-margin-bottom">
+                    <div class="w3-card w3-padding">
+                        <h3>Project Two</h3>
+                        <p>Description of project2.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section
+            class="w3-container w3-padding-64"
+            id="certificates"
+        >
+            <h2>Certificates</h2>
+            <ul class="w3-ul">
+                <li>Full Stack Web Development - XYZ Institute</li>
+                <li>Python for Everybody - Coursera</li>
+                <li>AWS Certified Developer</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="w3-container w3-light-gray w3-padding-64" id="contact">
+            <h2>Contact</h2>
+            <p>
+                <strong>Mobile:</strong>
+                <a href="tel:+447740678243">+44-77-4067-8243</a>
+            </p>
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:contact@sfraser.io">contact@sfraser.io</a>
+            </p>
+            <p>
+                <strong>LinkedIn:</strong>
+                <a
+                    href="https://www.linkedin.com/in/sfraser-dev"
+                    target="_blank"
+                    >linkedin.com/in/sfraser-dev</a
+                >
+            </p>
+            <p>
+                <strong>CV:</strong>
+                <a href="./static/docs/Stewart-Fraser-CV.pdf" target="_blank"
+                    >Download CV (PDF)</a
+                >
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-teal w3-center w3-padding-32">
+            <p>© 2025 Stewart Fraser</p>
+        </footer>
+
+        <script>
+            function scrollToSection(id) {
+                document
+                    .getElementById(id)
+                    .scrollIntoView({ behavior: "smooth" });
+            }
+        </script>
+    </body>
+</html>
