@@ -1,31 +1,24 @@
-/***** PROJECTS SECTION GRID *****/
-.my-projects-card-link {
+.my-grid-card-link {
     text-decoration: none;
 }
 
-.my-projects-card {
+.my-grid-card {
     padding-bottom: 0.5rem;
     margin: 16px 0 12px;
     transition: transform 0.2s ease-in-out;
 }
 
-.my-projects-card:hover {
+.my-grid-card:hover {
     transform: translate(6px, -6px);
 }
 
-.my-projects-card-title {
-    padding-top: 5px;
-    font-size: 1.25rem;
-    font-weight: 500;
-}
-
-.my-projects-card-image {
+.my-grid-card-image {
     max-width: 75%;
     height: auto;
     margin-bottom: 16px;
 }
 
-.my-shared-technologies-tag {
+.my-white-pill-info {
     font-size: 1.1rem;
     font-weight: 500;
     padding: 3px;
