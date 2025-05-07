@@ -43,7 +43,7 @@ body {
 }
 
 .my-green-pill-link {
-    font-size: 18px;
+    font-size: 1.125rem;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -72,14 +72,18 @@ body {
         text-align: center;
         width: 100%;
     }
+
     body {
         padding-top: 150px;
     }
+
     .my-contact-container {
         font-size: 0.9rem;
         margin-top: 20px;
     }
-    .my-green-pill-link {
-        font-size: 0.75rem;
+
+    .my-green-pill-link,
+    .my-white-pill-info {
+        font-size: 0.9rem;
     }
 }
