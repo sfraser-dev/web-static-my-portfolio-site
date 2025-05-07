@@ -1,0 +1,85 @@
+html,
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.my-grid-card-link {
+    text-decoration: none;
+}
+
+.my-grid-card {
+    max-width: 380px;
+    margin: 16px auto;
+    padding-bottom: 0.5rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.my-grid-card:hover {
+    transform: translate(6px, -6px);
+}
+
+.my-grid-card-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.my-white-pill-info {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0e0e0e;
+    margin-bottom: 5px;
+}
+
+.my-green-pill-link {
+    font-size: 18px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.my-green-pill-link:hover {
+    transform: translate(4px, -4px);
+}
+
+.my-contact-container {
+    font-size: 1.25rem;
+    margin-top: 30px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.my-contact-container:hover {
+    transform: translate(4px, -4px);
+}
+
+.my-contact-link {
+    text-decoration: none;
+}
+
+/* Navbar stacking on tiny screens (probably overkill) */
+@media (max-width: 330px) {
+    .my-navbar .w3-bar-item {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    body {
+        padding-top: 150px;
+    }
+    .my-contact-container {
+        font-size: 0.9rem;
+        margin-top: 20px;
+    }
+    .my-green-pill-link {
+        font-size: 0.75rem;
+    }
+}
