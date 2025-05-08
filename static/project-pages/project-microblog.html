@@ -8,8 +8,12 @@
             name="description"
             content="Microblog project - A Python/Flask web app using MongoDB. View and manage posts interactively."
         />
-
         <link rel="icon" href="../images/favicons/program.png" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+            crossorigin="anonymous"
+        />
         <link
             rel="stylesheet"
             href="https://www.w3schools.com/w3css/5/w3.css"
@@ -25,18 +29,20 @@
         <main class="w3-container w3-padding-64">
             <div class="w3-row">
                 <!-- Left Column: Project Image -->
-                <div class="w3-col l6 w3-padding-16">
+                <section class="w3-col l6 w3-padding-16" aria-label="Microblog image">
                     <img
                         src="../images/project-microblog-800x450.png"
                         alt="Microblog hero image"
-                        class="w3-image w3-section"
+                        class="w3-image w3-section w3-round-xlarge"
                     />
-                </div>
+                </section>
 
                 <!-- Right Column: Description -->
-                <div class="w3-col l6 w3-padding-16">
+                <section class="w3-col l6 w3-padding-16" aria-label="Microblog description">
                     <article class="w3-container">
-                        <h2>Microblog</h2>
+                        <header>
+                            <h2>Microblog</h2>
+                        </header>
 
                         <p class="w3-padding-16">
                             <a
@@ -84,38 +90,40 @@
                         </div>
 
                         <!-- Tech Stack Tags -->
-                        <div
-                            class="w3-tag w3-round w3-white my-white-pill-info"
-                        >
-                            Python
-                        </div>
-                        <div
-                            class="w3-tag w3-round w3-white my-white-pill-info"
-                        >
-                            Flask
-                        </div>
-                        <div
-                            class="w3-tag w3-round w3-white my-white-pill-info"
-                        >
-                            MongoDB
-                        </div>
-                        <div
-                            class="w3-tag w3-round w3-white my-white-pill-info"
-                        >
-                            HTML
-                        </div>
-                        <div
-                            class="w3-tag w3-round w3-white my-white-pill-info"
-                        >
-                            CSS
-                        </div>
-                        <div
-                            class="w3-tag w3-round w3-white my-white-pill-info"
-                        >
-                            W3.CSS
-                        </div>
+                        <footer>
+                            <div
+                                class="w3-tag w3-round w3-white my-white-pill-info"
+                            >
+                                Python
+                            </div>
+                            <div
+                                class="w3-tag w3-round w3-white my-white-pill-info"
+                            >
+                                Flask
+                            </div>
+                            <div
+                                class="w3-tag w3-round w3-white my-white-pill-info"
+                            >
+                                MongoDB
+                            </div>
+                            <div
+                                class="w3-tag w3-round w3-white my-white-pill-info"
+                            >
+                                HTML
+                            </div>
+                            <div
+                                class="w3-tag w3-round w3-white my-white-pill-info"
+                            >
+                                CSS
+                            </div>
+                            <div
+                                class="w3-tag w3-round w3-white my-white-pill-info"
+                            >
+                                W3.CSS
+                            </div>
+                        </footer>
                     </article>
-                </div>
+                </section>
             </div>
         </main>
     </body>

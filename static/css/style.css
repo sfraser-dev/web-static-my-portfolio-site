@@ -3,6 +3,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+address {
+    font-style: normal;
+}
+
 .nav-link {
     cursor: pointer;
 }

@@ -25,648 +25,687 @@
         />
     </head>
     <body>
-        <!-- Navbar -->
-        <div class="w3-top w3-bar w3-black w3-card my-navbar">
-            <a
-                class="w3-bar-item w3-button w3-hover-teal nav-link"
-                onclick="scrollToSection('home')"
-                >Home</a
-            >
-            <a
-                class="w3-bar-item w3-button w3-hover-teal nav-link"
-                onclick="scrollToSection('certificates')"
-                >Certs</a
-            >
-            <a
-                class="w3-bar-item w3-button w3-hover-teal nav-link"
-                onclick="scrollToSection('projects')"
-                >Projects</a
-            >
-            <a
-                class="w3-bar-item w3-button w3-hover-teal nav-link"
-                onclick="scrollToSection('contact')"
-                >Contact</a
-            >
-        </div>
+        <main>
+            <!-- Navbar -->
+            <nav class="w3-top w3-bar w3-black w3-card my-navbar">
+                <a
+                    class="w3-bar-item w3-button w3-hover-teal nav-link"
+                    onclick="scrollToSection('home')"
+                    >Home</a
+                >
+                <a
+                    class="w3-bar-item w3-button w3-hover-teal nav-link"
+                    onclick="scrollToSection('certificates')"
+                    >Certs</a
+                >
+                <a
+                    class="w3-bar-item w3-button w3-hover-teal nav-link"
+                    onclick="scrollToSection('projects')"
+                    >Projects</a
+                >
+                <a
+                    class="w3-bar-item w3-button w3-hover-teal nav-link"
+                    onclick="scrollToSection('contact')"
+                    >Contact</a
+                >
+            </nav>
 
-        <!-- Home Section -->
-        <section id="home" class="w3-container w3-teal w3-padding-64">
-            <div class="w3-row w3-center w3-padding-large">
-                <div class="w3-col l6 s12 w3-padding-16">
-                    <h1 class="w3-xxxlarge">Stewart Fraser</h1>
-                    <h3
-                        class="w3-margin-bottom"
-                        style="
-                            border-bottom: 2px solid #ffffff33;
-                            display: inline-block;
-                        "
-                    >
-                        Software Engineer
-                    </h3>
-
-                    <p class="w3-large">
-                        Passionate and pragmatic software engineer with
-                        experience building web, backend, and data systems in
-                        Python, JavaScript, and Go. I thrive on solving
-                        real-world problems with clean, efficient code, and have
-                        a strong interest in technical leadership and system
-                        design.
-                    </p>
-                    <p>
-                        <a
-                            href="#contact"
-                            class="w3-button w3-white w3-margin-top"
-                            >Get in Touch</a
+            <!-- Home Section -->
+            <section id="home" class="w3-container w3-teal w3-padding-64" aria-label="Information about Stewart Fraser">
+                <div class="w3-row w3-center w3-padding-large">
+                    <header class="w3-col l6 s12 w3-padding-16">
+                        <h1 class="w3-xxxlarge">Stewart Fraser</h1>
+                        <h3
+                            class="w3-margin-bottom"
+                            style="
+                                border-bottom: 2px solid #ffffff33;
+                                display: inline-block;
+                            "
                         >
+                            Software Engineer
+                        </h3>
+
+                        <p class="w3-large">
+                            Passionate and pragmatic software engineer with
+                            experience building web, backend, and data systems
+                            in Python, JavaScript, and Go. I thrive on solving
+                            real-world problems with clean, efficient code, and
+                            have a strong interest in technical leadership and
+                            system design.
+                        </p>
+                        <p>
+                            <a
+                                href="#contact"
+                                class="w3-button w3-white w3-margin-top"
+                                >Get in Touch</a
+                            >
+                            <a
+                                href="./static/docs/Stewart-Fraser-CV.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="w3-button w3-black w3-margin-top"
+                                >Download CV</a
+                            >
+                        </p>
+                    </header>
+                    <div class="w3-col l6 s12 w3-padding-16">
+                        <img
+                            src="./static/images/portrait-775x787.png"
+                            alt="Portrait image"
+                            style="width: 100%; max-width: 300px"
+                            class="w3-circle w3-hide-small w3-margin-top"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certificates Section -->
+            <section class="w3-container w3-padding-64" id="certificates" aria-label="Certificates obtained by Stewart Fraser">
+                <header>
+                    <h2>Certificates</h2>
+                    <div class="w3-container">
+                        <h5>Some recently obtained software certificates:</h5>
+                    </div>
+                </header>
+                <div class="w3-row-padding">
+                    <!-- Cert 1 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
                         <a
-                            href="./static/docs/Stewart-Fraser-CV.pdf"
+                            class="my-grid-card-link"
+                            href="https://www.freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/data-analysis-with-python-v7"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>Python Data Analysis</h4>
+                                <h6>Online Course (Oct 2024)</h6>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/programme-python-data-analysis-250x150.png"
+                                    alt="Python data analysis certificate"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        NumPy
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Pandas
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Matplotlib
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                    <!-- Cert 2 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="https://www.freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/javascript-algorithms-and-data-structures"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>JavaScript DSA</h4>
+                                <h6>Online Course (Mar 2024)</h6>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/programme-js-dsa-250x150.png"
+                                    alt="JavaScript DSA certificate"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Data Structures
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Algorithms
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                    <!-- Cert 3 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="https://www.freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/foundational-c-sharp-with-microsoft"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>C# Programming</h4>
+                                <h6>Online Course (Feb 2024)</h6>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/programme-csharp-250x150.png"
+                                    alt="Csharp programming certificate"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        C#
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        .NET
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Microsoft
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                    <!-- Cert 4 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="https://www.udemy.com/certificate/UC-39842b87-9f21-4303-ad79-44a69760dd18/"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>Go Programming</h4>
+                                <h6>Online Course (Jan 2024)</h6>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/programme-golang2-250x150.jpeg"
+                                    alt="Go programming certificate"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Golang
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Concurrency
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                    <!-- Cert 5 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="https://www.freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/back-end-development-and-apis"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>JavaScript REST APIs</h4>
+                                <h6>Online Course (Nov 2023)</h6>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/programme-node-rest-api-250x150.png"
+                                    alt="Backend and APIs certificate"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Express
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Node
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        MongoDB
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                    <!-- Cert 6 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="./static/docs/cert-JustIT-completion-certificate.pdf"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>Just IT</h4>
+                                <h6>Live Course (June 2023)</h6>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/programme-justIT-icon-paddedWithWhite-250x150.png"
+                                    alt="Just IT bootcamp certificate"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Python
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        JavaScript
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        SQL
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                    <!-- Cert 7 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="https://www.udemy.com/certificate/UC-ec6421c1-4784-4ba5-902d-229c7d08c2b4/"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>SQL</h4>
+                                <h6>Online Course (May 2023)</h6>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/programme-sql-250-150.png"
+                                    alt="SQL certificate"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        SQL
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        PostgreSQL
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        PgAdmin
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                    <!-- Cert 8 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="https://www.udemy.com/certificate/UC-ac1d437e-d4f3-43ec-8b1f-27386db098b9/"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>Python Programming</h4>
+                                <h6>Online Course (Mar 2023)</h6>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/programme-python-250x150.jpg"
+                                    alt="Python programming certificate"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Python
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Jupyter
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Games
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section
+                class="w3-container w3-light-gray w3-padding-64"
+                id="projects" aria-label="Some of Stewart Fraser's deployed projects"
+            >
+                <header>
+                    <h2>Projects</h2>
+                    <div class="w3-container">
+                        <h5>Some deployed projects from my GitHub account:</h5>
+                    </div>
+                </header>
+                <div class="w3-row-padding">
+                    <!-- Project 1 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="./static/project-pages/project-microblog.html"
                             target="_blank"
-                            class="w3-button w3-black w3-margin-top"
-                            >Download CV</a
+                            rel="noopener noreferrer"
                         >
-                    </p>
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>Microblog</h4>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/project-microblog-250x150.png"
+                                    alt="Microblog project image"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Python
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Flask
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        MongoDB
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="./static/project-pages/project-memory.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>Memory Game</h4>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/project-memory-250x150.png"
+                                    alt="Memory game project image"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        JavaScript
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        HTML
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        CSS
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="./static/project-pages/project-dice.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>Dice Game</h4>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/project-dice-250x150.png"
+                                    alt="Dice game project image"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        JavaScript
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        HTML
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        CSS
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="./static/project-pages/project-notes.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>Notes Application</h4>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/project-notes-250x150.png"
+                                    alt="Notes application project image"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        JavaScript
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        HTML
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        CSS
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="./static/project-pages/project-drums.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>Drum Set</h4>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/project-drum-250x150.png"
+                                    alt="Drum set project image"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        JavaScript
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        HTML
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        CSS
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
+                    <!-- Project 6 -->
+                    <div class="w3-col l3 m6 s12 w3-center">
+                        <a
+                            class="my-grid-card-link"
+                            href="./static/project-pages/project-films.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <article
+                                class="w3-card-4 w3-light-gray w3-center my-grid-card"
+                            >
+                                <h4>Film Database</h4>
+                                <img
+                                    class="my-grid-card-image"
+                                    src="./static/images/project-film-250x150.png"
+                                    alt="Film database project image"
+                                />
+                                <header>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Python
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        Pandas
+                                    </div>
+                                    <div
+                                        class="w3-tag w3-round w3-white my-white-pill-info"
+                                    >
+                                        SQL
+                                    </div>
+                                </header>
+                            </article>
+                        </a>
+                    </div>
                 </div>
-                <div class="w3-col l6 s12 w3-padding-16">
-                    <img
-                        src="./static/images/portrait-775x787.png"
-                        alt="Portrait image"
-                        style="width: 100%; max-width: 300px"
-                        class="w3-circle w3-hide-small w3-margin-top"
-                    />
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Certificates Section -->
-        <section class="w3-container w3-padding-64" id="certificates">
-            <h2>Certificates</h2>
-            <div class="w3-container">
-                <h5>Some recently obtained software certificates:</h5>
-            </div>
-            <div class="w3-row-padding">
-                <!-- Cert 1 -->
-                <div class="w3-col l3 m6 s12 w3-center">
-                    <a
-                        class="my-grid-card-link"
-                        href="https://www.freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/data-analysis-with-python-v7"
-                    >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
+            <!-- Contact Section -->
+            <section class="w3-container w3-padding-64" id="contact" aria-label="Contact information for Stewart Fraser">
+                <header>
+                    <h2>Contact</h2>
+                    <div class="w3-container">
+                        <h5>
+                            I'm always happy to connect — reach out by email,
+                            phone, or drop me a message on LinkedIn:
+                        </h5>
+                    </div>
+                </header>
+                <address>
+                    <div class="w3-container my-contact-container">
+                        <i
+                            class="fa-solid fa-phone my-font-awesome-margin-right-8px"
+                        ></i>
+                        Mobile:
+                        <span style="color: gray">+44-77-4067-8243</span>
+                    </div>
+                    <div class="w3-container my-contact-container">
+                        <a
+                            href="mailto:contact@sfraser.io"
+                            class="my-contact-link"
+                            ><i
+                                class="fa-regular fa-envelope my-font-awesome-margin-right-8px"
+                            ></i>
+                            Email:
+                            <span style="color: gray"
+                                >contact@sfraser.io</span
+                            ></a
                         >
-                            <h4>Python Data Analysis</h4>
-                            <h6>Online Course (Oct 2024)</h6>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/programme-python-data-analysis-250x150.png"
-                                alt="Python data analysis certificate"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    NumPy
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Pandas
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Matplotlib
-                                </div>
-                            </header>
-                        </article>
-                    </a>
-                </div>
-                <!-- Cert 2 -->
-                <div class="w3-col l3 m6 s12 w3-center">
+                    </div>
+                </address>
+                <div class="w3-container my-contact-container">
                     <a
-                        class="my-grid-card-link"
-                        href="https://www.freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/javascript-algorithms-and-data-structures"
+                        href="https://www.linkedin.com/in/sfraser-dev"
+                        class="my-contact-link"
+                        ><i
+                            class="fa-brands fa-linkedin my-font-awesome-margin-right-8px"
+                        ></i>
+                        LinkedIn:
+                        <span style="color: gray">sfraser-dev</span></a
                     >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>JavaScript DSA</h4>
-                            <h6>Online Course (Mar 2024)</h6>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/programme-js-dsa-250x150.png"
-                                alt="JavaScript DSA certificate"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Data Structures
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Algorithms
-                                </div>
-                            </header>
-                        </article>
-                    </a>
                 </div>
-                <!-- Cert 3 -->
-                <div class="w3-col l3 m6 s12 w3-center">
+                <div class="w3-container my-contact-container">
                     <a
-                        class="my-grid-card-link"
-                        href="https://www.freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/foundational-c-sharp-with-microsoft"
+                        href="https://github.com/sfraser-dev"
+                        class="my-contact-link"
+                        ><i
+                            class="fa-brands fa-github my-font-awesome-margin-right-8px"
+                        ></i>
+                        GitHub: <span style="color: gray">@sfraser-dev</span></a
                     >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>C# Programming</h4>
-                            <h6>Online Course (Feb 2024)</h6>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/programme-csharp-250x150.png"
-                                alt="Csharp programming certificate"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    C#
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    .NET
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Microsoft
-                                </div>
-                            </header>
-                        </article>
-                    </a>
                 </div>
-                <!-- Cert 4 -->
-                <div class="w3-col l3 m6 s12 w3-center">
+                <div class="w3-container my-contact-container">
                     <a
-                        class="my-grid-card-link"
-                        href="https://www.udemy.com/certificate/UC-39842b87-9f21-4303-ad79-44a69760dd18/"
+                        href="../static/docs/Stewart-Fraser-CV.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="my-contact-link"
+                        ><i
+                            class="fa-regular fa-file-lines my-font-awesome-margin-right-8px"
+                        ></i>
+                        CV: <span style="color: gray">PDF</span></a
                     >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>Go Programming</h4>
-                            <h6>Online Course (Jan 2024)</h6>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/programme-golang2-250x150.jpeg"
-                                alt="Go programming certificate"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Golang
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Concurrency
-                                </div>
-                            </header>
-                        </article>
-                    </a>
                 </div>
-                <!-- Cert 5 -->
-                <div class="w3-col l3 m6 s12 w3-center">
-                    <a
-                        class="my-grid-card-link"
-                        href="https://www.freecodecamp.org/certification/fcc011121fa-fa04-41d9-8189-0d017cab7a94/back-end-development-and-apis"
-                    >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>JavaScript REST APIs</h4>
-                            <h6>Online Course (Nov 2023)</h6>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/programme-node-rest-api-250x150.png"
-                                alt="Backend and APIs certificate"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Express
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Node
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    MongoDB
-                                </div>
-                            </header>
-                        </article>
-                    </a>
-                </div>
-                <!-- Cert 6 -->
-                <div class="w3-col l3 m6 s12 w3-center">
-                    <a
-                        class="my-grid-card-link"
-                        href="./static/docs/cert-JustIT-completion-certificate.pdf"
-                    >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>Just IT</h4>
-                            <h6>Live Course (June 2023)</h6>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/programme-justIT-icon-paddedWithWhite-250x150.png"
-                                alt="Just IT bootcamp certificate"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Python
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    JavaScript
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    SQL
-                                </div>
-                            </header>
-                        </article>
-                    </a>
-                </div>
-                <!-- Cert 7 -->
-                <div class="w3-col l3 m6 s12 w3-center">
-                    <a
-                        class="my-grid-card-link"
-                        href="https://www.udemy.com/certificate/UC-ec6421c1-4784-4ba5-902d-229c7d08c2b4/"
-                    >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>SQL</h4>
-                            <h6>Online Course (May 2023)</h6>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/programme-sql-250-150.png"
-                                alt="SQL certificate"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    SQL
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    PostgreSQL
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    PgAdmin
-                                </div>
-                            </header>
-                        </article>
-                    </a>
-                </div>
-                <!-- Cert 8 -->
-                <div class="w3-col l3 m6 s12 w3-center">
-                    <a
-                        class="my-grid-card-link"
-                        href="https://www.udemy.com/certificate/UC-ac1d437e-d4f3-43ec-8b1f-27386db098b9/"
-                    >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>Python Programming</h4>
-                            <h6>Online Course (Mar 2023)</h6>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/programme-python-250x150.jpg"
-                                alt="Python programming certificate"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Python
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Jupyter
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Games
-                                </div>
-                            </header>
-                        </article>
-                    </a>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Projects Section -->
-        <section class="w3-container w3-light-gray w3-padding-64" id="projects">
-            <h2>Projects</h2>
-            <div class="w3-container">
-                <h5>Some deployed projects from my GitHub account:</h5>
-            </div>
-            <div class="w3-row-padding">
-                <!-- Project 1 -->
-                <div class="w3-col l3 m6 s12 w3-center">
-                    <a
-                        class="my-grid-card-link"
-                        href="./static/project-pages/project-microblog.html"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>Microblog</h4>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/project-microblog-250x150.png"
-                                alt="Microblog project image"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Python
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Flask
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    MongoDB
-                                </div>
-                            </header>
-                        </article>
-                    </a>
-                </div>
-                <!-- Project 2 -->
-                <div class="w3-col l3 m6 s12 w3-center">
-                    <a
-                        class="my-grid-card-link"
-                        href="./static/project-pages/project-memory.html"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>Memory Game</h4>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/project-memory-250x150.png"
-                                alt="Memory game project image"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    JavaScript
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    HTML
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    CSS
-                                </div>
-                            </header>
-                        </article>
-                    </a>
-                </div>
-                <!-- Project 3 -->
-                <div class="w3-col l3 m6 s12 w3-center">
-                    <a
-                        class="my-grid-card-link"
-                        href="./static/project-pages/project-dice.html"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>Dice Game</h4>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/project-dice-250x150.png"
-                                alt="Dice game project image"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    JavaScript
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    HTML
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    CSS
-                                </div>
-                            </header>
-                        </article>
-                    </a>
-                </div>
-                <!-- Project 4 -->
-                <div class="w3-col l3 m6 s12 w3-center">
-                    <a
-                        class="my-grid-card-link"
-                        href="./static/project-pages/project-notes.html"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>Notes Application</h4>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/project-notes-250x150.png"
-                                alt="Notes application project image"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    JavaScript
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    HTML
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    CSS
-                                </div>
-                            </header>
-                        </article>
-                    </a>
-                </div>
-                <!-- Project 5 -->
-                <div class="w3-col l3 m6 s12 w3-center">
-                    <a
-                        class="my-grid-card-link"
-                        href="./static/project-pages/project-drums.html"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>Drum Set</h4>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/project-drum-250x150.png"
-                                alt="Drum set project image"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    JavaScript
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    HTML
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    CSS
-                                </div>
-                            </header>
-                        </article>
-                    </a>
-                </div>
-                <!-- Project 6 -->
-                <div class="w3-col l3 m6 s12 w3-center">
-                    <a
-                        class="my-grid-card-link"
-                        href="./static/project-pages/project-films.html"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <article
-                            class="w3-card-4 w3-light-gray w3-center my-grid-card"
-                        >
-                            <h4>Film Database</h4>
-                            <img
-                                class="my-grid-card-image"
-                                src="./static/images/project-film-250x150.png"
-                                alt="Film database project image"
-                            />
-                            <header>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Python
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    Pandas
-                                </div>
-                                <div
-                                    class="w3-tag w3-round w3-white my-white-pill-info"
-                                >
-                                    SQL
-                                </div>
-                            </header>
-                        </article>
-                    </a>
-                </div>
-            </div>
-        </section>
+            <!-- Footer -->
+            <footer class="w3-container w3-teal w3-center w3-padding-32">
+                <p>© 2025 Stewart Fraser</p>
+            </footer>
 
-        <!-- Contact Section -->
-        <section class="w3-container w3-padding-64" id="contact">
-            <h2>Contact</h2>
-            <div class="w3-container my-contact-container">
-                <i class="fa-solid fa-phone my-font-awesome-margin-right-8px"></i> Mobile:
-                <span style="color: gray">+44-77-4067-8243</span>
-            </div>
-            <div class="w3-container my-contact-container">
-                <a href="mailto:contact@sfraser.io" class="my-contact-link"
-                    ><i class="fa-regular fa-envelope my-font-awesome-margin-right-8px"></i> Email:
-                    <span style="color: gray">contact@sfraser.io</span></a
-                >
-            </div>
-            <div class="w3-container my-contact-container">
-                <a
-                    href="https://www.linkedin.com/in/sfraser-dev"
-                    class="my-contact-link"
-                    ><i class="fa-brands fa-linkedin my-font-awesome-margin-right-8px"></i> LinkedIn:
-                    <span style="color: gray">sfraser-dev</span></a
-                >
-            </div>
-            <div class="w3-container my-contact-container">
-                <a href="https://github.com/sfraser-dev" class="my-contact-link"
-                    ><i class="fa-brands fa-github my-font-awesome-margin-right-8px"></i> GitHub:
-                    <span style="color: gray">@sfraser-dev</span></a
-                >
-            </div>
-            <div class="w3-container my-contact-container">
-                <a
-                    href="../static/docs/Stewart-Fraser-CV.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="my-contact-link"
-                    ><i class="fa-regular fa-file-lines my-font-awesome-margin-right-8px"></i> CV:
-                    <span style="color: gray">PDF</span></a
-                >
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="w3-container w3-teal w3-center w3-padding-32">
-            <p>© 2025 Stewart Fraser</p>
-        </footer>
-
-        <script>
-            function scrollToSection(id) {
-                document
-                    .getElementById(id)
-                    .scrollIntoView({ behavior: "smooth" });
-            }
-        </script>
+            <script>
+                function scrollToSection(id) {
+                    document
+                        .getElementById(id)
+                        .scrollIntoView({ behavior: "smooth" });
+                }
+            </script>
+        </main>
     </body>
 </html>
