@@ -17,6 +17,12 @@ address {
     padding: 16px;
 }
 
+/* ----- HERO IMAGE -----*/
+.my-hero-image {
+    width: 100%;
+    max-width: 350px;
+}
+
 /*----- CARDS (certs and projects) -----*/
 .my-grid-card-link {
     text-decoration: none;
@@ -39,7 +45,6 @@ address {
     margin-bottom: 16px;
     border-radius: 8px;
 }
-
 
 /*----- PILLS -----*/
 .my-pill-white {
@@ -76,13 +81,13 @@ address {
     text-decoration: none;
 }
 
-.my-font-awesome-margin-right-8px{
+.my-font-awesome-margin-right-8px {
     margin-right: 8px;
 }
 
 /*----- MEDIA QUERIES -----*/
 @media (max-width: 330px) {
-/* Navbar stacking on tiny screens (probably overkill) */
+    /* Navbar stacking on tiny screens (probably overkill) */
     .my-navbar .w3-bar-item {
         display: block;
         text-align: center;
