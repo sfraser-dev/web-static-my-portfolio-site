@@ -65,6 +65,10 @@ body {
     text-decoration: none;
 }
 
+.my-font-awesome-margin-right-8px{
+    margin-right: 8px;
+}
+
 /* Navbar stacking on tiny screens (probably overkill) */
 @media (max-width: 330px) {
     .my-navbar .w3-bar-item {
