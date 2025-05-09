@@ -20,7 +20,7 @@ address {
 /* ----- HERO IMAGE -----*/
 .my-hero-image {
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
 }
 
 /*----- CARDS (certs and projects) -----*/
@@ -108,3 +108,10 @@ address {
         font-size: 0.9rem;
     }
 }
+
+@media (max-width: 992px) {
+    /* Create own W3.CSS class */
+    .w3-text-center-below-large {
+      text-align: center !important;
+    }
+  }
