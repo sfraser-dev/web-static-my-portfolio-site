@@ -1,6 +1,5 @@
-# Portfolio Website (Static)
+# Portfolio Website
 
-Portfolio website created while doing the Just IT Software Development Bootcamp.
+My personal (static) website.
 
-Technologies used: CSS (W3.CSS) and HTML.
-
+Built very simply using HTML, CSS, W3.CSS and a tiny bit of JavaScript.
